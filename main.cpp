@@ -16,6 +16,7 @@ int main()
         judge.get_players_move(player1);
         judge.get_players_move(player2);
         judge.print_board();
+        judge.check_state();
     }
 
     return 0;
